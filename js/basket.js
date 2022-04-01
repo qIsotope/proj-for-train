@@ -122,10 +122,4 @@ function resultItems() {
 	cardBody.lastElementChild.previousElementSibling.children[1].children[1].textContent = result
 
 }
-let card = document.querySelector('.card')
-card.addEventListener('click', (event) => {
-	if (event.target.classList.contains('minusItem')) {
-		console.log('asdsad')
-	}
-})
 
